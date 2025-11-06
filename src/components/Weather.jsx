@@ -2,7 +2,7 @@ import axios from "axios";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const apiBase = import.meta.env.VITE_API_BASE || "/api";
+const apiBase = import.meta.env.VITE_API_BASE || "https://info-hub-backend.onrender.com/api";
 
 export default function Weather() {
   const [city, setCity] = useState("Hyderabad");
