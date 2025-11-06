@@ -2,7 +2,7 @@ import axios from "axios";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-const apiBase = import.meta.env.VITE_API_BASE || "/api";
+const apiBase = import.meta.env.VITE_API_BASE || "https://info-hub-backend.onrender.com/api";
 
 export default function Currency(){
   const [amount, setAmount] = useState("100");
